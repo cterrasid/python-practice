@@ -6,7 +6,7 @@ def palindrome(word):
 def run():
     word = input("Escribe una palabra: ")
     is_palindrome = palindrome(word)
-    if is_palindrome == True:
+    if is_palindrome:
         print("Es palíndromo")
     else:
         print("No es palíndromo")
